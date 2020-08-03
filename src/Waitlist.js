@@ -8,7 +8,7 @@ export default function Waitlist() {
       {
         title: "County",
         field: "county",
-        //defaultGroupOrder: 0,
+        defaultGroupOrder: 0,
       },
       { title: "City", field: "city" },
       { title: "Provider", field: "provider" },
@@ -309,7 +309,7 @@ export default function Waitlist() {
 
   return (
     <MaterialTable
-      title="Waitlist - Section 28"
+      title=""
       columns={state.columns}
       data={state.data}
       options={{
