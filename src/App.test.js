@@ -4,6 +4,6 @@ import App from "./App";
 
 test("renders site header", () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/City/i);
+  const linkElement = getByText(/RCS Non Specialized Referral Management/i);
   expect(linkElement).toBeInTheDocument();
 });
