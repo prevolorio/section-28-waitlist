@@ -12,33 +12,7 @@ body {
   font-size: small;
 }
 
-:root {
-  --color-background: #fff;
-  --color-on-background: #000;
-}
-
-body[data-theme="dark"] {
-  --color-background: #252526;
-  --color-on-background: #fff;
-}
-
-body {
-  background: var(--color-background);
-  color: var(--color-on-background);
-}
-
 h3 {
   text-align: center;
   font-weight: 400;
-}
-
-.toggle-theme {
-  background: none;
-  border: none;
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-}
-.toggle-theme img {
-  width: 20px;
 }
